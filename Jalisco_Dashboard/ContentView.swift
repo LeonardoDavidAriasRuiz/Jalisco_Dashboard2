@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var cloudKitUserViewModel = CloudKitUserViewModel()
+    private let notSingedInMSG = "No tienes una cuenta de iCloud iniciada en el dispositivo"
+    
     var body: some View {
-        OptionsMenu()
+        if cloudKitUserViewModel.isSignedInToiCloud {
+            OptionsMenu()
+                .preferredColorScheme(ColorScheme.light)
+        } else {
+            VStack {
+                Image(systemName: "exclamationmark.icloud.fill")
+                    .font(.largeTitle)
+                    .foregroundColor(.yellow)
+                Text(notSingedInMSG)
+                    .padding(20)
+            }
+        }
+        
     }
 }
 

@@ -8,13 +8,46 @@
 import SwiftUI
 
 struct Contador: View {
+    @State private var contador = ContadorModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            contadorArea
+            messageArea
+        }
+        .background(Color("ListBackground"))
+    }
+    
+    private var messageArea: some View {
+        TextEditor(text: $contador.message)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+        .padding(10)
+        .background(Color.white)
+        .cornerRadius(10)
+        .padding(.top, 10)
+        .padding(.bottom, 20)
+        .padding(.horizontal, 20)
+    }
+    
+    private var contadorArea: some View {
+        HStack {
+            TextField("Nombre", text: $contador.name)
+                .modifier(HeaderAreas())
+                .padding(.leading, 20)
+            TextField("Email", text: $contador.email)
+                .modifier(HeaderAreas())
+                .padding(.horizontal, 10)
+            Button("Actualizar", action: {})
+                .modifier(HeaderAreas())
+                .padding(.trailing, 20)
+        }
     }
 }
 
 struct Contador_Previews: PreviewProvider {
     static var previews: some View {
-        Contador()
+        NavigationView {
+            Contador().navigationTitle("Contador")
+        }
     }
 }

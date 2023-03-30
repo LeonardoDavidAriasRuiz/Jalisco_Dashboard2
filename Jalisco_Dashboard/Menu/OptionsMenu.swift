@@ -22,7 +22,8 @@ struct OptionsMenu: View {
                 NavigationLink(ms.empleados, destination: Empleados().navigationTitle(ms.empleados))
                 NavigationLink(ms.contador, destination: Contador().navigationTitle(ms.contador))
             }
-            .background(Color(red: 0.949, green: 0.949, blue: 0.966))
+            .background(Color("ListBackground"))
+            .navigationTitle("Menu")
         }
     }
 }
