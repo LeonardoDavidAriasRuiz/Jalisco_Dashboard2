@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Tips.swift
 //  Jalisco_Dashboard
 //
 //  Created by Leonardo David Arias Ruiz on 29/03/23.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Tips: View {
     var body: some View {
-        OptionsMenu()
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Tips_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Tips()
     }
 }

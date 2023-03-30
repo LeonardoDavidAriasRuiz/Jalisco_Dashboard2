@@ -14,6 +14,16 @@
 		7E4460E829D49EFE00CC13A8 /* Jalisco_DashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4460E729D49EFE00CC13A8 /* Jalisco_DashboardTests.swift */; };
 		7E4460F229D49EFE00CC13A8 /* Jalisco_DashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4460F129D49EFE00CC13A8 /* Jalisco_DashboardUITests.swift */; };
 		7E4460F429D49EFE00CC13A8 /* Jalisco_DashboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4460F329D49EFE00CC13A8 /* Jalisco_DashboardUITestsLaunchTests.swift */; };
+		7E51BC4629D4C1A700D6D33C /* Ventas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC4529D4C1A700D6D33C /* Ventas.swift */; };
+		7E51BC5229D51C9A00D6D33C /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC5129D51C9A00D6D33C /* Tips.swift */; };
+		7E51BC5429D51CAA00D6D33C /* Depositos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC5329D51CAA00D6D33C /* Depositos.swift */; };
+		7E51BC5629D51CB200D6D33C /* Cheques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC5529D51CB200D6D33C /* Cheques.swift */; };
+		7E51BC5829D51CD300D6D33C /* Empleados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC5729D51CD300D6D33C /* Empleados.swift */; };
+		7E51BC5A29D51CD900D6D33C /* Gastos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC5929D51CD900D6D33C /* Gastos.swift */; };
+		7E51BC5C29D51CE400D6D33C /* Beneficiarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC5B29D51CE400D6D33C /* Beneficiarios.swift */; };
+		7E51BC5E29D51CF400D6D33C /* PayRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC5D29D51CF400D6D33C /* PayRoll.swift */; };
+		7E51BC6029D51CFC00D6D33C /* Contador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC5F29D51CFC00D6D33C /* Contador.swift */; };
+		7E782A5329D4BDC200556F99 /* OptionsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E782A5229D4BDC200556F99 /* OptionsMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		7E4460ED29D49EFE00CC13A8 /* Jalisco_DashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jalisco_DashboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4460F129D49EFE00CC13A8 /* Jalisco_DashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jalisco_DashboardUITests.swift; sourceTree = "<group>"; };
 		7E4460F329D49EFE00CC13A8 /* Jalisco_DashboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jalisco_DashboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E51BC4529D4C1A700D6D33C /* Ventas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ventas.swift; sourceTree = "<group>"; };
+		7E51BC5129D51C9A00D6D33C /* Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
+		7E51BC5329D51CAA00D6D33C /* Depositos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depositos.swift; sourceTree = "<group>"; };
+		7E51BC5529D51CB200D6D33C /* Cheques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheques.swift; sourceTree = "<group>"; };
+		7E51BC5729D51CD300D6D33C /* Empleados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empleados.swift; sourceTree = "<group>"; };
+		7E51BC5929D51CD900D6D33C /* Gastos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gastos.swift; sourceTree = "<group>"; };
+		7E51BC5B29D51CE400D6D33C /* Beneficiarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beneficiarios.swift; sourceTree = "<group>"; };
+		7E51BC5D29D51CF400D6D33C /* PayRoll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayRoll.swift; sourceTree = "<group>"; };
+		7E51BC5F29D51CFC00D6D33C /* Contador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contador.swift; sourceTree = "<group>"; };
+		7E782A5229D4BDC200556F99 /* OptionsMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsMenu.swift; sourceTree = "<group>"; wrapsLines = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +94,9 @@
 		7E4460CA29D49EFD00CC13A8 = {
 			isa = PBXGroup;
 			children = (
-				7E4460D529D49EFD00CC13A8 /* Jalisco_Dashboard */,
 				7E4460E629D49EFE00CC13A8 /* Jalisco_DashboardTests */,
 				7E4460F029D49EFE00CC13A8 /* Jalisco_DashboardUITests */,
+				7E4460D529D49EFD00CC13A8 /* Jalisco_Dashboard */,
 				7E4460D429D49EFD00CC13A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,6 +118,7 @@
 				7E4460D829D49EFD00CC13A8 /* ContentView.swift */,
 				7E4460DA29D49EFE00CC13A8 /* Assets.xcassets */,
 				7E4460DC29D49EFE00CC13A8 /* Preview Content */,
+				7E51BC4729D51BD000D6D33C /* Menu */,
 			);
 			path = Jalisco_Dashboard;
 			sourceTree = "<group>";
@@ -125,6 +146,95 @@
 				7E4460F329D49EFE00CC13A8 /* Jalisco_DashboardUITestsLaunchTests.swift */,
 			);
 			path = Jalisco_DashboardUITests;
+			sourceTree = "<group>";
+		};
+		7E51BC4729D51BD000D6D33C /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				7E782A5229D4BDC200556F99 /* OptionsMenu.swift */,
+				7E51BC4829D51BF900D6D33C /* Ventas */,
+				7E51BC4929D51C0800D6D33C /* Tips */,
+				7E51BC4A29D51C1300D6D33C /* Depositos */,
+				7E51BC4B29D51C1B00D6D33C /* Cheques */,
+				7E51BC4C29D51C2400D6D33C /* Empleados */,
+				7E51BC4D29D51C2D00D6D33C /* Gastos */,
+				7E51BC4E29D51C3400D6D33C /* Beneficiarios */,
+				7E51BC4F29D51C3E00D6D33C /* PayRoll */,
+				7E51BC5029D51C5300D6D33C /* Contador */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		7E51BC4829D51BF900D6D33C /* Ventas */ = {
+			isa = PBXGroup;
+			children = (
+				7E51BC4529D4C1A700D6D33C /* Ventas.swift */,
+			);
+			path = Ventas;
+			sourceTree = "<group>";
+		};
+		7E51BC4929D51C0800D6D33C /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				7E51BC5129D51C9A00D6D33C /* Tips.swift */,
+			);
+			path = Tips;
+			sourceTree = "<group>";
+		};
+		7E51BC4A29D51C1300D6D33C /* Depositos */ = {
+			isa = PBXGroup;
+			children = (
+				7E51BC5329D51CAA00D6D33C /* Depositos.swift */,
+			);
+			path = Depositos;
+			sourceTree = "<group>";
+		};
+		7E51BC4B29D51C1B00D6D33C /* Cheques */ = {
+			isa = PBXGroup;
+			children = (
+				7E51BC5529D51CB200D6D33C /* Cheques.swift */,
+			);
+			path = Cheques;
+			sourceTree = "<group>";
+		};
+		7E51BC4C29D51C2400D6D33C /* Empleados */ = {
+			isa = PBXGroup;
+			children = (
+				7E51BC5729D51CD300D6D33C /* Empleados.swift */,
+			);
+			path = Empleados;
+			sourceTree = "<group>";
+		};
+		7E51BC4D29D51C2D00D6D33C /* Gastos */ = {
+			isa = PBXGroup;
+			children = (
+				7E51BC5929D51CD900D6D33C /* Gastos.swift */,
+			);
+			path = Gastos;
+			sourceTree = "<group>";
+		};
+		7E51BC4E29D51C3400D6D33C /* Beneficiarios */ = {
+			isa = PBXGroup;
+			children = (
+				7E51BC5B29D51CE400D6D33C /* Beneficiarios.swift */,
+			);
+			path = Beneficiarios;
+			sourceTree = "<group>";
+		};
+		7E51BC4F29D51C3E00D6D33C /* PayRoll */ = {
+			isa = PBXGroup;
+			children = (
+				7E51BC5D29D51CF400D6D33C /* PayRoll.swift */,
+			);
+			path = PayRoll;
+			sourceTree = "<group>";
+		};
+		7E51BC5029D51C5300D6D33C /* Contador */ = {
+			isa = PBXGroup;
+			children = (
+				7E51BC5F29D51CFC00D6D33C /* Contador.swift */,
+			);
+			path = Contador;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +367,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E51BC4629D4C1A700D6D33C /* Ventas.swift in Sources */,
+				7E51BC5629D51CB200D6D33C /* Cheques.swift in Sources */,
+				7E51BC5229D51C9A00D6D33C /* Tips.swift in Sources */,
+				7E51BC5A29D51CD900D6D33C /* Gastos.swift in Sources */,
+				7E51BC5429D51CAA00D6D33C /* Depositos.swift in Sources */,
+				7E51BC5829D51CD300D6D33C /* Empleados.swift in Sources */,
+				7E782A5329D4BDC200556F99 /* OptionsMenu.swift in Sources */,
+				7E51BC6029D51CFC00D6D33C /* Contador.swift in Sources */,
 				7E4460D929D49EFD00CC13A8 /* ContentView.swift in Sources */,
 				7E4460D729D49EFD00CC13A8 /* Jalisco_DashboardApp.swift in Sources */,
+				7E51BC5C29D51CE400D6D33C /* Beneficiarios.swift in Sources */,
+				7E51BC5E29D51CF400D6D33C /* PayRoll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +540,14 @@
 				DEVELOPMENT_TEAM = T2WHR22U8R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Dashboard;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +572,14 @@
 				DEVELOPMENT_TEAM = T2WHR22U8R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Dashboard;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -511,6 +637,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T2WHR22U8R;
@@ -529,6 +656,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T2WHR22U8R;

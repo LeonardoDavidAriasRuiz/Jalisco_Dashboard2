@@ -12,6 +12,7 @@ struct Jalisco_DashboardApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(ColorScheme.light)
         }
     }
 }
