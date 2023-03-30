@@ -23,6 +23,8 @@
 		7E51BC5C29D51CE400D6D33C /* Beneficiarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC5B29D51CE400D6D33C /* Beneficiarios.swift */; };
 		7E51BC5E29D51CF400D6D33C /* PayRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC5D29D51CF400D6D33C /* PayRoll.swift */; };
 		7E51BC6029D51CFC00D6D33C /* Contador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC5F29D51CFC00D6D33C /* Contador.swift */; };
+		7E51BC6229D51E1000D6D33C /* EmpleadosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC6129D51E1000D6D33C /* EmpleadosModel.swift */; };
+		7E51BC6629D5216000D6D33C /* CloudKitUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC6529D5216000D6D33C /* CloudKitUserViewModel.swift */; };
 		7E782A5329D4BDC200556F99 /* OptionsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E782A5229D4BDC200556F99 /* OptionsMenu.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +65,9 @@
 		7E51BC5B29D51CE400D6D33C /* Beneficiarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beneficiarios.swift; sourceTree = "<group>"; };
 		7E51BC5D29D51CF400D6D33C /* PayRoll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayRoll.swift; sourceTree = "<group>"; };
 		7E51BC5F29D51CFC00D6D33C /* Contador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contador.swift; sourceTree = "<group>"; };
+		7E51BC6129D51E1000D6D33C /* EmpleadosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadosModel.swift; sourceTree = "<group>"; };
+		7E51BC6329D51F9500D6D33C /* Jalisco_Dashboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jalisco_Dashboard.entitlements; sourceTree = "<group>"; };
+		7E51BC6529D5216000D6D33C /* CloudKitUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUserViewModel.swift; sourceTree = "<group>"; };
 		7E782A5229D4BDC200556F99 /* OptionsMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsMenu.swift; sourceTree = "<group>"; wrapsLines = 0; };
 /* End PBXFileReference section */
 
@@ -114,10 +119,12 @@
 		7E4460D529D49EFD00CC13A8 /* Jalisco_Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				7E51BC6329D51F9500D6D33C /* Jalisco_Dashboard.entitlements */,
 				7E4460D629D49EFD00CC13A8 /* Jalisco_DashboardApp.swift */,
 				7E4460D829D49EFD00CC13A8 /* ContentView.swift */,
 				7E4460DA29D49EFE00CC13A8 /* Assets.xcassets */,
 				7E4460DC29D49EFE00CC13A8 /* Preview Content */,
+				7E51BC6429D520F600D6D33C /* Users */,
 				7E51BC4729D51BD000D6D33C /* Menu */,
 			);
 			path = Jalisco_Dashboard;
@@ -201,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				7E51BC5729D51CD300D6D33C /* Empleados.swift */,
+				7E51BC6129D51E1000D6D33C /* EmpleadosModel.swift */,
 			);
 			path = Empleados;
 			sourceTree = "<group>";
@@ -235,6 +243,14 @@
 				7E51BC5F29D51CFC00D6D33C /* Contador.swift */,
 			);
 			path = Contador;
+			sourceTree = "<group>";
+		};
+		7E51BC6429D520F600D6D33C /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				7E51BC6529D5216000D6D33C /* CloudKitUserViewModel.swift */,
+			);
+			path = Users;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E51BC4629D4C1A700D6D33C /* Ventas.swift in Sources */,
+				7E51BC6229D51E1000D6D33C /* EmpleadosModel.swift in Sources */,
 				7E51BC5629D51CB200D6D33C /* Cheques.swift in Sources */,
 				7E51BC5229D51C9A00D6D33C /* Tips.swift in Sources */,
 				7E51BC5A29D51CD900D6D33C /* Gastos.swift in Sources */,
@@ -375,6 +392,7 @@
 				7E51BC5829D51CD300D6D33C /* Empleados.swift in Sources */,
 				7E782A5329D4BDC200556F99 /* OptionsMenu.swift in Sources */,
 				7E51BC6029D51CFC00D6D33C /* Contador.swift in Sources */,
+				7E51BC6629D5216000D6D33C /* CloudKitUserViewModel.swift in Sources */,
 				7E4460D929D49EFD00CC13A8 /* ContentView.swift in Sources */,
 				7E4460D729D49EFD00CC13A8 /* Jalisco_DashboardApp.swift in Sources */,
 				7E51BC5C29D51CE400D6D33C /* Beneficiarios.swift in Sources */,
@@ -534,6 +552,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Jalisco_Dashboard/Jalisco_Dashboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Jalisco_Dashboard/Preview Content\"";
@@ -566,6 +585,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Jalisco_Dashboard/Jalisco_Dashboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Jalisco_Dashboard/Preview Content\"";

@@ -13,14 +13,14 @@ struct OptionsMenu: View {
         NavigationView {
             List {
                 NavigationLink(ms.ventas, destination: Ventas().navigationTitle(ms.ventas))
-                NavigationLink(ms.tips, destination: {}.navigationTitle(ms.tips))
-                NavigationLink(ms.depositos, destination: {}.navigationTitle(ms.depositos))
-                NavigationLink(ms.cheques, destination: {}.navigationTitle(ms.cheques))
-                NavigationLink(ms.empleados, destination: {}.navigationTitle(ms.empleados))
-                NavigationLink(ms.gastos, destination: {}.navigationTitle(ms.gastos))
-                NavigationLink(ms.beneficiarios, destination: {}.navigationTitle(ms.beneficiarios))
-                NavigationLink(ms.payroll, destination: {}.navigationTitle(ms.payroll))
-                NavigationLink(ms.contador, destination: {}.navigationTitle(ms.contador))
+                NavigationLink(ms.tips, destination: Tips().navigationTitle(ms.tips))
+                NavigationLink(ms.depositos, destination: Depositos().navigationTitle(ms.depositos))
+                NavigationLink(ms.cheques, destination: Cheques().navigationTitle(ms.cheques))
+                NavigationLink(ms.gastos, destination: Gastos().navigationTitle(ms.gastos))
+                NavigationLink(ms.beneficiarios, destination: Beneficiarios().navigationTitle(ms.beneficiarios))
+                NavigationLink(ms.payroll, destination: PayRoll().navigationTitle(ms.payroll))
+                NavigationLink(ms.empleados, destination: Empleados().navigationTitle(ms.empleados))
+                NavigationLink(ms.contador, destination: Contador().navigationTitle(ms.contador))
             }
             .background(Color(red: 0.949, green: 0.949, blue: 0.966))
         }
