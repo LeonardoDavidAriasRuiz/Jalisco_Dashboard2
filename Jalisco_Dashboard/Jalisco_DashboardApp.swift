@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct Jalisco_DashboardApp: App {
+    
+    private let uc = UserController()
+    private let rc = RestauranteController()
+    private let ec = EmpleadoController()
+    private let sc = SpendingController()
+    
     var body: some Scene {
         WindowGroup {
+//            Email()
             ContentView()
+                .environmentObject(uc)
+                .environmentObject(rc)
+                .environmentObject(ec)
+                .environmentObject(sc)
                 .preferredColorScheme(ColorScheme.light)
         }
     }

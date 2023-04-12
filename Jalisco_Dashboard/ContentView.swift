@@ -6,31 +6,47 @@
 //
 
 import SwiftUI
+import Alamofire
 
 struct ContentView: View {
     
-    @StateObject var cloudKitUserViewModel = CloudKitUserViewModel()
-    private let notSingedInMSG = "No tienes una cuenta de iCloud iniciada en el dispositivo"
+    @EnvironmentObject private var uc: UserController
+    @State private var internetConnected = NetworkReachabilityManager()!.isReachable
     
     var body: some View {
-        if cloudKitUserViewModel.isSignedInToiCloud {
-            OptionsMenu()
-                .preferredColorScheme(ColorScheme.light)
-        } else {
-            VStack {
-                Image(systemName: "exclamationmark.icloud.fill")
-                    .font(.largeTitle)
-                    .foregroundColor(.yellow)
-                Text(notSingedInMSG)
-                    .padding(20)
-            }
-        }
-        
+        if internetConnected {
+            if uc.queriesDone {
+                if uc.isiCloudUser {
+                    if uc.isUserLogIn {
+                        if uc.isUserSignIn {
+                            if !uc.currentRestaurantLink.isEmpty {
+                                OptionsMenu()
+                            } else { RestaurantSelection() }
+                        } else { SignIn() }
+                    } else { LogIn() }
+                } else { NoiCloudAccount() }
+            } else { downloadingData }
+        } else { noInternetConnection }
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    var noInternetConnection: some View {
+        VStack {
+            Image(systemName: "wifi.slash").foregroundColor(Color.red).font(.system(size: 200))
+            Text("No hay internet").font(.system(size: 60))
+            Text("Reinicia la aplicación si ya estas conectado")
+            Button("Reintentar", action: checkInternetConnectivity)
+        }
+    }
+    
+    var downloadingData: some View {
+        HStack {
+            Image(systemName: "icloud.and.arrow.down").foregroundColor(.blue).font(.largeTitle)
+            Text("Obteniendo datos")
+        }
+    }
+    
+    func checkInternetConnectivity() {
+        uc.loadUserInfo()
+        internetConnected = NetworkReachabilityManager()!.isReachable
     }
 }

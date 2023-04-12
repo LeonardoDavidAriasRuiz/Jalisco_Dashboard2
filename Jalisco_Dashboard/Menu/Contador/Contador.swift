@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct Contador: View {
+    
+    @Binding var tint: Color
+    
     @State private var contador = ContadorModel()
     
     var body: some View {
         VStack {
             contadorArea
             messageArea
-        }
-        .background(Color("ListBackground"))
+        }.modifier(WallColor(wallpaper: "WallBrown"))
+        .onAppear(perform: onAppear)
     }
     
     private var messageArea: some View {
@@ -42,12 +45,17 @@ struct Contador: View {
                 .padding(.trailing, 20)
         }
     }
+    
+    func onAppear() {
+        tint = .brown
+    }
 }
 
 struct Contador_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            Contador().navigationTitle("Contador")
+            @State var tint = Color.red
+            Contador(tint: $tint)
         }
     }
 }

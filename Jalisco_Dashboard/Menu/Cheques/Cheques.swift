@@ -8,13 +8,24 @@
 import SwiftUI
 
 struct Cheques: View {
+    
+    @Binding var tint: Color
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Hellow")
+        }.modifier(WallColor(wallpaper: "WallDarkGreen"))
+        .onAppear(perform: onAppear)
+    }
+    
+    func onAppear() {
+        tint = Color("DarkGreen")
     }
 }
 
 struct Cheques_Previews: PreviewProvider {
     static var previews: some View {
-        Cheques()
+        @State var tint = Color.red
+        Cheques(tint: $tint)
     }
 }

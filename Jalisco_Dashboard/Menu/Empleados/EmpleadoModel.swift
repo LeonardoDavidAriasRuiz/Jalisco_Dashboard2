@@ -7,20 +7,23 @@
 
 import Foundation
 
-struct EmpleadoModel {
-    let id: UUID
-    var firstName: String
+struct EmpleadoModel: Hashable {
+    var id: String
+    var name: String
     var lastName: String
+    var restaurantLink: String
     
-    init(firstName: String, lastName: String) {
-        self.id = UUID()
-        self.firstName = firstName
+    init(id: String, name: String, lastName: String, restaurantLink: String) {
+        self.id = id
+        self.name = name
         self.lastName = lastName
+        self.restaurantLink = restaurantLink
     }
     
     init() {
-        self.id = UUID()
-        self.firstName = ""
+        self.id = UUID().uuidString
+        self.name = ""
         self.lastName = ""
+        self.restaurantLink = ""
     }
 }

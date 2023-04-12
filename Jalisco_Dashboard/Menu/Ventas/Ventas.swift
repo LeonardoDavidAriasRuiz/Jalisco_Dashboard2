@@ -8,13 +8,24 @@
 import SwiftUI
 
 struct Ventas: View {
+    
+    @Binding var tint: Color
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Hellow")
+        }.modifier(WallColor(wallpaper: "WallGreen"))
+        .onAppear(perform: onAppear)
+    }
+    
+    func onAppear() {
+        tint = .green
     }
 }
 
 struct Ventas_Previews: PreviewProvider {
     static var previews: some View {
-        Ventas()
+        @State var tint = Color.red
+        Ventas(tint: $tint)
     }
 }

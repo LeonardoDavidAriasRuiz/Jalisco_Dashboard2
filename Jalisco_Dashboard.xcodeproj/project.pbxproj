@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B837DCEEC762E0A1B90FA59 /* Pods_Jalisco_Dashboard_Jalisco_DashboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8D75EB12CEAE2B7D6D4148 /* Pods_Jalisco_Dashboard_Jalisco_DashboardUITests.framework */; };
+		6AAA379E7DF76DD166E3835C /* Pods_Jalisco_DashboardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35ADA665884298764F56ED83 /* Pods_Jalisco_DashboardTests.framework */; };
+		7E0AF74B29DC98BD006BB69B /* MailSMTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0AF74A29DC98BD006BB69B /* MailSMTP.swift */; };
+		7E0AF74E29DC9A11006BB69B /* MailCore2 in Frameworks */ = {isa = PBXBuildFile; productRef = 7E0AF74D29DC9A11006BB69B /* MailCore2 */; };
+		7E228BBC29E0D39800C363FB /* RestaurantSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E228BBB29E0D39800C363FB /* RestaurantSelection.swift */; };
+		7E228BBE29E1222C00C363FB /* SpendingTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E228BBD29E1222C00C363FB /* SpendingTypeModel.swift */; };
+		7E228BC029E12F2800C363FB /* SpendingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E228BBF29E12F2800C363FB /* SpendingModel.swift */; };
 		7E4460D729D49EFD00CC13A8 /* Jalisco_DashboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4460D629D49EFD00CC13A8 /* Jalisco_DashboardApp.swift */; };
 		7E4460D929D49EFD00CC13A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4460D829D49EFD00CC13A8 /* ContentView.swift */; };
 		7E4460DB29D49EFE00CC13A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4460DA29D49EFE00CC13A8 /* Assets.xcassets */; };
@@ -24,10 +31,24 @@
 		7E51BC5E29D51CF400D6D33C /* PayRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC5D29D51CF400D6D33C /* PayRoll.swift */; };
 		7E51BC6029D51CFC00D6D33C /* Contador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC5F29D51CFC00D6D33C /* Contador.swift */; };
 		7E51BC6229D51E1000D6D33C /* EmpleadoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC6129D51E1000D6D33C /* EmpleadoModel.swift */; };
-		7E51BC6629D5216000D6D33C /* CloudKitUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC6529D5216000D6D33C /* CloudKitUserViewModel.swift */; };
 		7E51BC6829D5398400D6D33C /* ContadorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC6729D5398400D6D33C /* ContadorModel.swift */; };
 		7E51BC6C29D540AD00D6D33C /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC6B29D540AD00D6D33C /* Styles.swift */; };
+		7E51BC6E29D5433400D6D33C /* DepositoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC6D29D5433400D6D33C /* DepositoModel.swift */; };
+		7E51BC7029D5562B00D6D33C /* CustomUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC6F29D5562B00D6D33C /* CustomUserModel.swift */; };
+		7E51BC7529D55EE800D6D33C /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC7429D55EE800D6D33C /* UserController.swift */; };
+		7E51BC7829D5647D00D6D33C /* Cuenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC7729D5647D00D6D33C /* Cuenta.swift */; };
+		7E51BC7B29D565F400D6D33C /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC7A29D565F400D6D33C /* LogIn.swift */; };
+		7E51BC7D29D5660000D6D33C /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E51BC7C29D5660000D6D33C /* SignIn.swift */; };
+		7E6837A429D865D400356B52 /* NoiCloudAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6837A329D865D400356B52 /* NoiCloudAccount.swift */; };
+		7E697E0029D60B7400C500FA /* RestauranteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E697DFF29D60B7400C500FA /* RestauranteModel.swift */; };
+		7E697E2829D66BF500C500FA /* RestauranteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E697E2729D66BF500C500FA /* RestauranteController.swift */; };
+		7E697E6129D6862B00C500FA /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E697E6029D6862B00C500FA /* MailView.swift */; };
+		7E697E6329D6870100C500FA /* EmailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E697E6229D6870100C500FA /* EmailModel.swift */; };
 		7E782A5329D4BDC200556F99 /* OptionsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E782A5229D4BDC200556F99 /* OptionsMenu.swift */; };
+		7E80B12B29DDEED0006CAC82 /* Corte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80B12A29DDEED0006CAC82 /* Corte.swift */; };
+		7E80B14729DFF03A006CAC82 /* EmpleadoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80B14629DFF03A006CAC82 /* EmpleadoController.swift */; };
+		7E91E07829DA577C007CDBF8 /* Pods_Jalisco_Dashboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22F648CBCC1842EA22D7847 /* Pods_Jalisco_Dashboard.framework */; };
+		7ED03AAD29E64FEE00707A18 /* SpendingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED03AAC29E64FEE00707A18 /* SpendingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +69,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C8D75EB12CEAE2B7D6D4148 /* Pods_Jalisco_Dashboard_Jalisco_DashboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jalisco_Dashboard_Jalisco_DashboardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5712DA0B1B3B37DCC36B75 /* Pods-Jalisco_Dashboard-Jalisco_DashboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jalisco_Dashboard-Jalisco_DashboardUITests.release.xcconfig"; path = "Target Support Files/Pods-Jalisco_Dashboard-Jalisco_DashboardUITests/Pods-Jalisco_Dashboard-Jalisco_DashboardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2BE1711B9F96A165750DF946 /* Pods-Jalisco_DashboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jalisco_DashboardTests.release.xcconfig"; path = "Target Support Files/Pods-Jalisco_DashboardTests/Pods-Jalisco_DashboardTests.release.xcconfig"; sourceTree = "<group>"; };
+		31D491CB4162436E7F595DB4 /* Pods-Jalisco_DashboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jalisco_DashboardTests.debug.xcconfig"; path = "Target Support Files/Pods-Jalisco_DashboardTests/Pods-Jalisco_DashboardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		35ADA665884298764F56ED83 /* Pods_Jalisco_DashboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jalisco_DashboardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD263A142DD5614333019CD /* Pods-Jalisco_Dashboard-Jalisco_DashboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jalisco_Dashboard-Jalisco_DashboardUITests.debug.xcconfig"; path = "Target Support Files/Pods-Jalisco_Dashboard-Jalisco_DashboardUITests/Pods-Jalisco_Dashboard-Jalisco_DashboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E0AF74A29DC98BD006BB69B /* MailSMTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailSMTP.swift; sourceTree = "<group>"; };
+		7E228BBB29E0D39800C363FB /* RestaurantSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSelection.swift; sourceTree = "<group>"; };
+		7E228BBD29E1222C00C363FB /* SpendingTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingTypeModel.swift; sourceTree = "<group>"; };
+		7E228BBF29E12F2800C363FB /* SpendingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingModel.swift; sourceTree = "<group>"; };
 		7E4460D329D49EFD00CC13A8 /* Jalisco_Dashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jalisco_Dashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4460D629D49EFD00CC13A8 /* Jalisco_DashboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jalisco_DashboardApp.swift; sourceTree = "<group>"; };
 		7E4460D829D49EFD00CC13A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,10 +100,27 @@
 		7E51BC5F29D51CFC00D6D33C /* Contador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contador.swift; sourceTree = "<group>"; };
 		7E51BC6129D51E1000D6D33C /* EmpleadoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadoModel.swift; sourceTree = "<group>"; };
 		7E51BC6329D51F9500D6D33C /* Jalisco_Dashboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jalisco_Dashboard.entitlements; sourceTree = "<group>"; };
-		7E51BC6529D5216000D6D33C /* CloudKitUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUserViewModel.swift; sourceTree = "<group>"; };
 		7E51BC6729D5398400D6D33C /* ContadorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorModel.swift; sourceTree = "<group>"; };
 		7E51BC6B29D540AD00D6D33C /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		7E51BC6D29D5433400D6D33C /* DepositoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositoModel.swift; sourceTree = "<group>"; };
+		7E51BC6F29D5562B00D6D33C /* CustomUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUserModel.swift; sourceTree = "<group>"; };
+		7E51BC7429D55EE800D6D33C /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		7E51BC7729D5647D00D6D33C /* Cuenta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuenta.swift; sourceTree = "<group>"; };
+		7E51BC7A29D565F400D6D33C /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		7E51BC7C29D5660000D6D33C /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		7E6837A329D865D400356B52 /* NoiCloudAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoiCloudAccount.swift; sourceTree = "<group>"; };
+		7E697DFF29D60B7400C500FA /* RestauranteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestauranteModel.swift; sourceTree = "<group>"; };
+		7E697E2729D66BF500C500FA /* RestauranteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestauranteController.swift; sourceTree = "<group>"; };
+		7E697E6029D6862B00C500FA /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		7E697E6229D6870100C500FA /* EmailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailModel.swift; sourceTree = "<group>"; };
 		7E782A5229D4BDC200556F99 /* OptionsMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsMenu.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		7E80B12A29DDEED0006CAC82 /* Corte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Corte.swift; sourceTree = "<group>"; };
+		7E80B14629DFF03A006CAC82 /* EmpleadoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadoController.swift; sourceTree = "<group>"; };
+		7E98074529DA0C16001AA024 /* Jalisco-Dashboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Jalisco-Dashboard-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7ED03AAC29E64FEE00707A18 /* SpendingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingController.swift; sourceTree = "<group>"; };
+		AC68EA72484085C79C6EBBC3 /* Pods-Jalisco_Dashboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jalisco_Dashboard.debug.xcconfig"; path = "Target Support Files/Pods-Jalisco_Dashboard/Pods-Jalisco_Dashboard.debug.xcconfig"; sourceTree = "<group>"; };
+		B8EF413A151256FF55521D96 /* Pods-Jalisco_Dashboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jalisco_Dashboard.release.xcconfig"; path = "Target Support Files/Pods-Jalisco_Dashboard/Pods-Jalisco_Dashboard.release.xcconfig"; sourceTree = "<group>"; };
+		E22F648CBCC1842EA22D7847 /* Pods_Jalisco_Dashboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jalisco_Dashboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +128,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E91E07829DA577C007CDBF8 /* Pods_Jalisco_Dashboard.framework in Frameworks */,
+				7E0AF74E29DC9A11006BB69B /* MailCore2 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AAA379E7DF76DD166E3835C /* Pods_Jalisco_DashboardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B837DCEEC762E0A1B90FA59 /* Pods_Jalisco_Dashboard_Jalisco_DashboardUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +159,8 @@
 				7E4460F029D49EFE00CC13A8 /* Jalisco_DashboardUITests */,
 				7E4460D529D49EFD00CC13A8 /* Jalisco_Dashboard */,
 				7E4460D429D49EFD00CC13A8 /* Products */,
+				8E545412A731A42148E074F1 /* Pods */,
+				853DDD94AB5C504FF3453C02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,13 +177,17 @@
 		7E4460D529D49EFD00CC13A8 /* Jalisco_Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				7E98074529DA0C16001AA024 /* Jalisco-Dashboard-Info.plist */,
 				7E51BC6329D51F9500D6D33C /* Jalisco_Dashboard.entitlements */,
 				7E4460D629D49EFD00CC13A8 /* Jalisco_DashboardApp.swift */,
 				7E4460D829D49EFD00CC13A8 /* ContentView.swift */,
 				7E4460DA29D49EFE00CC13A8 /* Assets.xcassets */,
-				7E4460DC29D49EFE00CC13A8 /* Preview Content */,
 				7E51BC6A29D5408300D6D33C /* Styles */,
+				7E697E5F29D6861A00C500FA /* Mail */,
+				7E4460DC29D49EFE00CC13A8 /* Preview Content */,
+				7E697DFE29D60B5500C500FA /* Restaurantes */,
 				7E51BC6429D520F600D6D33C /* Users */,
+				7E51BC7929D565D400D6D33C /* SingIn */,
 				7E51BC4729D51BD000D6D33C /* Menu */,
 			);
 			path = Jalisco_Dashboard;
@@ -164,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				7E782A5229D4BDC200556F99 /* OptionsMenu.swift */,
+				7E80B12929DDEEC1006CAC82 /* Corte */,
 				7E51BC4829D51BF900D6D33C /* Ventas */,
 				7E51BC4929D51C0800D6D33C /* Tips */,
 				7E51BC4A29D51C1300D6D33C /* Depositos */,
@@ -173,6 +232,7 @@
 				7E51BC4E29D51C3400D6D33C /* Beneficiarios */,
 				7E51BC4F29D51C3E00D6D33C /* PayRoll */,
 				7E51BC5029D51C5300D6D33C /* Contador */,
+				7E51BC7629D5646600D6D33C /* Cuenta */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -197,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				7E51BC5329D51CAA00D6D33C /* Depositos.swift */,
+				7E51BC6D29D5433400D6D33C /* DepositoModel.swift */,
 			);
 			path = Depositos;
 			sourceTree = "<group>";
@@ -214,6 +275,7 @@
 			children = (
 				7E51BC5729D51CD300D6D33C /* Empleados.swift */,
 				7E51BC6129D51E1000D6D33C /* EmpleadoModel.swift */,
+				7E80B14629DFF03A006CAC82 /* EmpleadoController.swift */,
 			);
 			path = Empleados;
 			sourceTree = "<group>";
@@ -222,6 +284,9 @@
 			isa = PBXGroup;
 			children = (
 				7E51BC5929D51CD900D6D33C /* Gastos.swift */,
+				7E228BBF29E12F2800C363FB /* SpendingModel.swift */,
+				7E228BBD29E1222C00C363FB /* SpendingTypeModel.swift */,
+				7ED03AAC29E64FEE00707A18 /* SpendingController.swift */,
 			);
 			path = Gastos;
 			sourceTree = "<group>";
@@ -254,7 +319,8 @@
 		7E51BC6429D520F600D6D33C /* Users */ = {
 			isa = PBXGroup;
 			children = (
-				7E51BC6529D5216000D6D33C /* CloudKitUserViewModel.swift */,
+				7E51BC6F29D5562B00D6D33C /* CustomUserModel.swift */,
+				7E51BC7429D55EE800D6D33C /* UserController.swift */,
 			);
 			path = Users;
 			sourceTree = "<group>";
@@ -267,6 +333,75 @@
 			path = Styles;
 			sourceTree = "<group>";
 		};
+		7E51BC7629D5646600D6D33C /* Cuenta */ = {
+			isa = PBXGroup;
+			children = (
+				7E51BC7729D5647D00D6D33C /* Cuenta.swift */,
+			);
+			path = Cuenta;
+			sourceTree = "<group>";
+		};
+		7E51BC7929D565D400D6D33C /* SingIn */ = {
+			isa = PBXGroup;
+			children = (
+				7E51BC7A29D565F400D6D33C /* LogIn.swift */,
+				7E51BC7C29D5660000D6D33C /* SignIn.swift */,
+				7E6837A329D865D400356B52 /* NoiCloudAccount.swift */,
+				7E228BBB29E0D39800C363FB /* RestaurantSelection.swift */,
+			);
+			path = SingIn;
+			sourceTree = "<group>";
+		};
+		7E697DFE29D60B5500C500FA /* Restaurantes */ = {
+			isa = PBXGroup;
+			children = (
+				7E697DFF29D60B7400C500FA /* RestauranteModel.swift */,
+				7E697E2729D66BF500C500FA /* RestauranteController.swift */,
+			);
+			path = Restaurantes;
+			sourceTree = "<group>";
+		};
+		7E697E5F29D6861A00C500FA /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				7E697E6029D6862B00C500FA /* MailView.swift */,
+				7E697E6229D6870100C500FA /* EmailModel.swift */,
+				7E0AF74A29DC98BD006BB69B /* MailSMTP.swift */,
+			);
+			path = Mail;
+			sourceTree = "<group>";
+		};
+		7E80B12929DDEEC1006CAC82 /* Corte */ = {
+			isa = PBXGroup;
+			children = (
+				7E80B12A29DDEED0006CAC82 /* Corte.swift */,
+			);
+			path = Corte;
+			sourceTree = "<group>";
+		};
+		853DDD94AB5C504FF3453C02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E22F648CBCC1842EA22D7847 /* Pods_Jalisco_Dashboard.framework */,
+				0C8D75EB12CEAE2B7D6D4148 /* Pods_Jalisco_Dashboard_Jalisco_DashboardUITests.framework */,
+				35ADA665884298764F56ED83 /* Pods_Jalisco_DashboardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E545412A731A42148E074F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC68EA72484085C79C6EBBC3 /* Pods-Jalisco_Dashboard.debug.xcconfig */,
+				B8EF413A151256FF55521D96 /* Pods-Jalisco_Dashboard.release.xcconfig */,
+				5CD263A142DD5614333019CD /* Pods-Jalisco_Dashboard-Jalisco_DashboardUITests.debug.xcconfig */,
+				1D5712DA0B1B3B37DCC36B75 /* Pods-Jalisco_Dashboard-Jalisco_DashboardUITests.release.xcconfig */,
+				31D491CB4162436E7F595DB4 /* Pods-Jalisco_DashboardTests.debug.xcconfig */,
+				2BE1711B9F96A165750DF946 /* Pods-Jalisco_DashboardTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -274,15 +409,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E4460F729D49EFE00CC13A8 /* Build configuration list for PBXNativeTarget "Jalisco_Dashboard" */;
 			buildPhases = (
+				130FFC8A97EC77C856DC492D /* [CP] Check Pods Manifest.lock */,
 				7E4460CF29D49EFD00CC13A8 /* Sources */,
 				7E4460D029D49EFD00CC13A8 /* Frameworks */,
 				7E4460D129D49EFD00CC13A8 /* Resources */,
+				9FB4770A03EC1A8CB0FE4CD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Jalisco_Dashboard;
+			packageProductDependencies = (
+				7E0AF74D29DC9A11006BB69B /* MailCore2 */,
+			);
 			productName = Jalisco_Dashboard;
 			productReference = 7E4460D329D49EFD00CC13A8 /* Jalisco_Dashboard.app */;
 			productType = "com.apple.product-type.application";
@@ -291,6 +431,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E4460FA29D49EFE00CC13A8 /* Build configuration list for PBXNativeTarget "Jalisco_DashboardTests" */;
 			buildPhases = (
+				D03E15E6036ACD25547F7C40 /* [CP] Check Pods Manifest.lock */,
 				7E4460DF29D49EFE00CC13A8 /* Sources */,
 				7E4460E029D49EFE00CC13A8 /* Frameworks */,
 				7E4460E129D49EFE00CC13A8 /* Resources */,
@@ -309,9 +450,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E4460FD29D49EFE00CC13A8 /* Build configuration list for PBXNativeTarget "Jalisco_DashboardUITests" */;
 			buildPhases = (
+				B5F1483389660FAE2E5B70EA /* [CP] Check Pods Manifest.lock */,
 				7E4460E929D49EFE00CC13A8 /* Sources */,
 				7E4460EA29D49EFE00CC13A8 /* Frameworks */,
 				7E4460EB29D49EFE00CC13A8 /* Resources */,
+				7C0E9F014AA5A0CAF99F365B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -355,6 +498,9 @@
 				Base,
 			);
 			mainGroup = 7E4460CA29D49EFD00CC13A8;
+			packageReferences = (
+				7E0AF74C29DC9A11006BB69B /* XCRemoteSwiftPackageReference "mailcore2" */,
+			);
 			productRefGroup = 7E4460D429D49EFD00CC13A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -392,6 +538,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		130FFC8A97EC77C856DC492D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jalisco_Dashboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C0E9F014AA5A0CAF99F365B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jalisco_Dashboard-Jalisco_DashboardUITests/Pods-Jalisco_Dashboard-Jalisco_DashboardUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jalisco_Dashboard-Jalisco_DashboardUITests/Pods-Jalisco_Dashboard-Jalisco_DashboardUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jalisco_Dashboard-Jalisco_DashboardUITests/Pods-Jalisco_Dashboard-Jalisco_DashboardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FB4770A03EC1A8CB0FE4CD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jalisco_Dashboard/Pods-Jalisco_Dashboard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jalisco_Dashboard/Pods-Jalisco_Dashboard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jalisco_Dashboard/Pods-Jalisco_Dashboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5F1483389660FAE2E5B70EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jalisco_Dashboard-Jalisco_DashboardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D03E15E6036ACD25547F7C40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jalisco_DashboardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E4460CF29D49EFD00CC13A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -400,19 +649,36 @@
 				7E51BC4629D4C1A700D6D33C /* Ventas.swift in Sources */,
 				7E51BC6229D51E1000D6D33C /* EmpleadoModel.swift in Sources */,
 				7E51BC5629D51CB200D6D33C /* Cheques.swift in Sources */,
+				7E51BC7029D5562B00D6D33C /* CustomUserModel.swift in Sources */,
 				7E51BC5229D51C9A00D6D33C /* Tips.swift in Sources */,
+				7E228BBC29E0D39800C363FB /* RestaurantSelection.swift in Sources */,
+				7E697E6329D6870100C500FA /* EmailModel.swift in Sources */,
 				7E51BC6829D5398400D6D33C /* ContadorModel.swift in Sources */,
+				7E80B12B29DDEED0006CAC82 /* Corte.swift in Sources */,
+				7E51BC6E29D5433400D6D33C /* DepositoModel.swift in Sources */,
 				7E51BC5A29D51CD900D6D33C /* Gastos.swift in Sources */,
 				7E51BC5429D51CAA00D6D33C /* Depositos.swift in Sources */,
 				7E51BC5829D51CD300D6D33C /* Empleados.swift in Sources */,
+				7E697E6129D6862B00C500FA /* MailView.swift in Sources */,
+				7E51BC7D29D5660000D6D33C /* SignIn.swift in Sources */,
+				7E51BC7529D55EE800D6D33C /* UserController.swift in Sources */,
+				7E6837A429D865D400356B52 /* NoiCloudAccount.swift in Sources */,
 				7E782A5329D4BDC200556F99 /* OptionsMenu.swift in Sources */,
+				7E51BC7B29D565F400D6D33C /* LogIn.swift in Sources */,
+				7E80B14729DFF03A006CAC82 /* EmpleadoController.swift in Sources */,
 				7E51BC6029D51CFC00D6D33C /* Contador.swift in Sources */,
-				7E51BC6629D5216000D6D33C /* CloudKitUserViewModel.swift in Sources */,
+				7E697E0029D60B7400C500FA /* RestauranteModel.swift in Sources */,
+				7E0AF74B29DC98BD006BB69B /* MailSMTP.swift in Sources */,
+				7E228BC029E12F2800C363FB /* SpendingModel.swift in Sources */,
+				7E697E2829D66BF500C500FA /* RestauranteController.swift in Sources */,
+				7E51BC7829D5647D00D6D33C /* Cuenta.swift in Sources */,
 				7E51BC6C29D540AD00D6D33C /* Styles.swift in Sources */,
 				7E4460D929D49EFD00CC13A8 /* ContentView.swift in Sources */,
 				7E4460D729D49EFD00CC13A8 /* Jalisco_DashboardApp.swift in Sources */,
 				7E51BC5C29D51CE400D6D33C /* Beneficiarios.swift in Sources */,
+				7ED03AAD29E64FEE00707A18 /* SpendingController.swift in Sources */,
 				7E51BC5E29D51CF400D6D33C /* PayRoll.swift in Sources */,
+				7E228BBE29E1222C00C363FB /* SpendingTypeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +831,7 @@
 		};
 		7E4460F829D49EFE00CC13A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC68EA72484085C79C6EBBC3 /* Pods-Jalisco_Dashboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -575,6 +842,7 @@
 				DEVELOPMENT_TEAM = T2WHR22U8R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jalisco-Dashboard-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Dashboard;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -598,6 +866,7 @@
 		};
 		7E4460F929D49EFE00CC13A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8EF413A151256FF55521D96 /* Pods-Jalisco_Dashboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -608,6 +877,7 @@
 				DEVELOPMENT_TEAM = T2WHR22U8R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jalisco-Dashboard-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Dashboard;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -631,9 +901,9 @@
 		};
 		7E4460FB29D49EFE00CC13A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31D491CB4162436E7F595DB4 /* Pods-Jalisco_DashboardTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T2WHR22U8R;
@@ -651,9 +921,9 @@
 		};
 		7E4460FC29D49EFE00CC13A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE1711B9F96A165750DF946 /* Pods-Jalisco_DashboardTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T2WHR22U8R;
@@ -671,6 +941,7 @@
 		};
 		7E4460FE29D49EFE00CC13A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD263A142DD5614333019CD /* Pods-Jalisco_Dashboard-Jalisco_DashboardUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
@@ -690,6 +961,7 @@
 		};
 		7E4460FF29D49EFE00CC13A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D5712DA0B1B3B37DCC36B75 /* Pods-Jalisco_Dashboard-Jalisco_DashboardUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
@@ -747,6 +1019,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7E0AF74C29DC9A11006BB69B /* XCRemoteSwiftPackageReference "mailcore2" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MailCore/mailcore2";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E0AF74D29DC9A11006BB69B /* MailCore2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E0AF74C29DC9A11006BB69B /* XCRemoteSwiftPackageReference "mailcore2" */;
+			productName = MailCore2;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7E4460CB29D49EFD00CC13A8 /* Project object */;
 }

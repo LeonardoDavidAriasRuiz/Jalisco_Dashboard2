@@ -8,13 +8,24 @@
 import SwiftUI
 
 struct PayRoll: View {
+    
+    @Binding var tint: Color
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Hellow")
+        }.modifier(WallColor(wallpaper: "WallBurgundy"))
+        .onAppear(perform: onAppear)
+    }
+    
+    func onAppear() {
+        tint = Color("Burgundy")
     }
 }
 
 struct PayRoll_Previews: PreviewProvider {
     static var previews: some View {
-        PayRoll()
+        @State var tint = Color.red
+        PayRoll(tint: $tint)
     }
 }
